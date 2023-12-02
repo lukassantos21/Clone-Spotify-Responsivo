@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fim css -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- fim bootstrap -->
+    <title>Landing page</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar"> <!--Nav-bar-->
+            <div class="logo"> <!--logo-->
+                <a href="#">
+                    <i class="bi bi-spotify"></i>
+                </a>
+                <a href="#">
+                    <h1>Spotify</h1>
+                </a>
+            </div> <!--fim do logo-->
+            <div class="nav-menu"> <!--Nav menu-->
+
+                <ul class="nav-list">
+                    <li><a href="#" class="nav-items">Premium</a></li>
+                    <li><a href="#" class="nav-items">Suporte</a></li>
+                    <li><a href="#" class="nav-items">Baixar</a></li>
+                    <li role="separator" class="separator"></li>
+                    <li><a href="#" class="nav-items">Inscreva-se</a></li>
+                    <li><a href="#" class="nav-items">Entrar</a></li>
+                </ul>
+
+            </div> <!--fim do Nav menu-->
+            <button class="hamburguer" id="btn-hamburguer" onclick="animarMenu()"> <!--Hamburguer-->
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button> <!--Fim do Hamburguer-->
+            <div class="menu-mobile2" id="menu-mobile"> <!--Menu mobile-->
+                <ul class="nav-list2">
+
+                    <li><a href="#" class="nav-items2"><span>Premium</span></a></li>
+                    <li><a href="#" class="nav-items2"><span>Suporte</span></a></li>
+                    <li><a href="#" class="nav-items2"><span>Baixar</span></a></li>
+                    <li role="separator" class="separator"></li>
+                    <li><a href="#" class="nav-items2">Inscreva-se</a></li>
+                    <li><a href="#" class="nav-items2">Entrar</a></li>
+
+                    <div class="logo2"> <!--logo-->
+                        <a href="#">
+                            <i class="bi bi-spotify"></i>
+                        </a>
+                        <a href="#">
+                            <h1>Spotify</h1>
+                        </a>
+                    </div> <!--fim do logo-->
+
+                </ul>
+            </div> <!--Fim Menu Mobile-->
+        </nav><!--Fim do Nav-bar-->
+    </header>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
