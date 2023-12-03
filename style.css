@@ -56,6 +56,12 @@ header .nav-bar .logo a:hover{
     transition: 2s;
 }
 
+header .nav-bar .logo i:hover{
+    color: #1ed760;
+    transform: scale(1.09);
+    transition: 2s;
+}
+
 /* estilos menu */
 
 header nav .nav-menu ul{
@@ -135,10 +141,98 @@ header .nav-menu a{
 
 /*Section Principal*/
 
+ main .conteudo-primario{
+    display: flex;
+    width: 100%;
+    height: 80rem;
+    background-color: #9c2fec;
+    ;
+ }
 
-
+main .txt-principal{
+    display: flex;
+    flex-direction: column;
+    text-align: left;   
+    margin: 4rem 5%
+    }
   
+    main .txt-principal h2{
+        font-size: 2.8rem;
+        color: #fff;
+        line-height: 3.5rem;
+        padding-bottom: 1.5rem;
+    }
 
+    main .txt-principal .primeiro-p{
+        color: #fff;
+        font-size: 2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    main .txt-principal button{
+        border: none;
+        border-radius: 8rem;
+        padding: 1.2rem ;
+        margin-bottom: 1rem;
+        color: #fff;
+    }
+
+
+    main .txt-principal .btn-comecar{
+        background-color: #000;
+        font-size: 2rem;
+    }
+
+    main .txt-principal .btn-planos{
+        background: transparent;
+        border: solid #fff 0.3rem;
+    }
+
+    main .txt-principal .segundo-p{
+        margin-top: 2.5rem;
+        font-size: 1.4rem;
+        color: #fff;
+    }
+
+    main .txt-principal img{
+        width: 35rem;
+        padding: 4rem 0;
+    }
+
+/* SECTION CARDS */
+
+main .card{
+    width: 100%;
+    height: 80rem;
+    background-color: #fff;
+}
+
+main .card h1{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin: 4rem;
+
+}
+
+main .card .modo-offline{
+    display: flex;
+    align-items: center;
+    flex-wrap:;
+}
+
+main .card .modo-offline h2{
+    font-size: 3.5rem;
+}
+
+main .card .modo-offline p{
+    font-size: 1.8rem;
+}
+
+main .card .modo-offline img{
+    width: 10rem;
+    margin: 0 6%;
+}
 
 /* estilos responsivo */
 
@@ -217,6 +311,10 @@ header .nav-menu a{
     }
 
     .nav-list2 .nav-items2 span:hover{
+        color: #1ed760;
+    }
+
+    .nav-list2 .logo2 i:hover{
         color: #1ed760;
     }
 }
