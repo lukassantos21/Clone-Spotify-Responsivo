@@ -6,6 +6,8 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -224,7 +226,7 @@ main .txt-principal img {
 
 main .card {
     width: 100%;
-    height: 80rem;
+    height: 70rem;
     background-color: #fff;
 }
 
@@ -279,6 +281,136 @@ main .card .qualidade{
     align-items: center;
 }
 
+
+/* section planos */
+
+main #planos{
+    width: 100%;
+    height: 310rem;
+    background: #efefef;
+}
+
+main #planos .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem 4%;
+    padding: 10rem 10%;
+     
+}
+
+main #planos .container h2{
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 4rem;
+    padding-bottom: 1.5rem;
+}
+
+
+main #planos .container h3{
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 2.5rem;
+    padding-bottom: 4rem;
+}
+
+
+main #planos .container .plano-individual{
+    /* border: #000000 solid 2px; */
+    width: 35rem;
+    height: 60rem;
+    background-color: #fff;
+    border-radius: 10px 10px;
+    box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px, rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    padding: 2rem 2%;
+    margin-top: 8rem;
+}
+
+main #planos .cabecalho ul {
+    margin-bottom: 2rem;
+}
+
+main #planos .cabecalho .primeiro-txt span{
+    font-size: 1.5rem;
+    background: rgb(13, 114, 234);
+    border-radius:0.6rem;
+    padding: 4px 8px;
+    color: #fff;
+    gap: 100px;
+}
+
+main #planos .cabecalho .segundo-txt span{
+    font-size: 1.5rem;
+    background: transparent;
+    border: 2px solid rgb(13, 114, 234);
+    border-radius:0.6rem;
+    padding: 4px 8px;
+    color: rgb(13, 114, 234);
+    
+}
+
+main #planos .cabecalho h3{
+    font-size: 2.4rem;
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+}
+
+main #planos .cabecalho p{
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+}
+
+main #planos .separator{
+    width: 90%;
+    border: rgb(204, 204, 204) solid 1.8px;
+    align-self: stretch;
+    margin: 2px auto;
+}
+
+main #planos .descricao-plano1{
+    font-size: 1.6rem;
+    text-align: left;
+    padding-left: 2rem;
+    
+
+}
+
+
+main #planos .descricao-plano1 i{
+    font-size: 2rem;
+    color: #000;
+}
+
+.descricao-plano1 ul li{
+    display: flex;
+    padding-top: 2.5rem;
+}
+
+main .descricao-plano1 .icone {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    padding: 0px 10px 0px 0px;
+}
+
+main #planos .btn-primeiro{
+    text-align: center;
+    padding-top: 10%;
+}
+
+main #planos .btn-primeiro button{
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 30%;
+    border-radius: 5rem;
+}
+
+main #planos .termos{
+    padding: 1.5rem 2rem;
+    font-size: 1.3rem;
+}
 
 /* estilos responsivo */
 
