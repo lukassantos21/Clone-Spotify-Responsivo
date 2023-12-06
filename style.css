@@ -232,16 +232,18 @@ main .card {
 
 main .card h2 {
     font-size: 2rem;
+    padding: 1rem;
 }
 
 
 main .card p {
     font-size: 1.6rem;
+    padding: 1rem 4%;
 }
 
 main .card img {
-    width: 10rem;
-    margin: 2rem 6%;
+    width: 9rem;
+    margin: 3rem 3%;
 }
 
 main .card h1 {
@@ -318,17 +320,17 @@ main #planos .container h3{
 
 
 main #planos .container #geral{
-    width: 35rem;
+    width: 33rem;
     height: 65rem;
     background-color: #fff;
     border-radius: 10px 10px;
     box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px, rgba(0, 0, 0, 0.3) 2px 8px 8px;
     padding: 2rem 4%;
-    margin: 6rem 4%;
+    margin: 6rem 1%;
 }
 
 main #planos .container  #duo-familia{
-    width: 35rem;
+    width: 33rem;
     height: 70rem;
     background-color: #fff;
     border-radius: 10px 10px;
@@ -509,6 +511,7 @@ footer{
         line-height: 8.5rem;
 
     }
+
 
     .nav-list2 .separator {
         width: 2rem;
