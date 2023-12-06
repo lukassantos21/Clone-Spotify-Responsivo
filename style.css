@@ -231,7 +231,7 @@ main .card {
 }
 
 main .card h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 
@@ -246,7 +246,7 @@ main .card img {
 
 main .card h1 {
     text-align: center;
-    font-size: 2.3rem;
+    font-size: 4rem;
     font-weight: bold;
     margin: 4rem;
 
@@ -286,7 +286,7 @@ main .card .qualidade{
 
 main #planos{
     width: 100%;
-    height: 310rem;
+    height: 320rem;
     background: #efefef;
 }
 
@@ -301,7 +301,7 @@ main #planos .container{
 }
 
 main #planos .container h2{
-    font-size: 2.8rem;
+    font-size: 3.8rem;
     font-weight: bold;
     text-align: center;
     line-height: 4rem;
@@ -310,22 +310,21 @@ main #planos .container h2{
 
 
 main #planos .container h3{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     text-align: center;
     line-height: 2.5rem;
     padding-bottom: 4rem;
 }
 
 
-main #planos .container .plano-individual{
-    /* border: #000000 solid 2px; */
+main #planos .container .card-pay{
     width: 35rem;
     height: 60rem;
     background-color: #fff;
     border-radius: 10px 10px;
     box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px, rgba(0, 0, 0, 0.3) 2px 8px 8px;
     padding: 2rem 2%;
-    margin-top: 8rem;
+    margin: 6rem 4%;
 }
 
 main #planos .cabecalho ul {
@@ -395,12 +394,12 @@ main .descricao-plano1 .icone {
     padding: 0px 10px 0px 0px;
 }
 
-main #planos .btn-primeiro{
+main #planos .btn-pay{
     text-align: center;
     padding-top: 10%;
 }
 
-main #planos .btn-primeiro button{
+main #planos .btn-pay button{
     background-color: #000;
     color: #fff;
     padding: 1rem 30%;
@@ -411,6 +410,15 @@ main #planos .termos{
     padding: 1.5rem 2rem;
     font-size: 1.3rem;
 }
+
+/* rodapé */
+
+footer{
+    width: 100%;
+    height: 200rem;
+    background-color: #000;
+}
+
 
 /* estilos responsivo */
 
