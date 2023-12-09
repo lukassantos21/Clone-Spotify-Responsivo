@@ -7,3 +7,11 @@ function animarMenu(){
     menuDiv.classList.toggle('abrir')
     btnAnimar.classList.toggle('ativo')
 }
+
+
+const buttonPlanos = document.querySelector("btn-planos")
+buttonPlanos.addEventListener('click', SubmitEvent)
+function submit (){
+    console.log("buttonPlanos")
+
+}
